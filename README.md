@@ -11,11 +11,11 @@ This project was completed using the following libraries
 - numpy==1.25.2
 
 ## Insights
-🔍 `price_by_combinations` was dropped because it had over 99% missing data.
-🧩 Columns like `active_date`, `categories`, and `average_rating_by_types` had manageable missing values and were filled using the **mode**.
-📌 The `rating_types_str` column was filled with `"Unknown"` for consistency in categorical data.
-🔄 Duplicate check showed **no duplicate records** were present.
-✅ After cleaning, the dataset is now **complete and consistent**, ready for exploratory data analysis (EDA) and further modeling.
+- 🔍 `price_by_combinations` was dropped because it had over 99% missing data.
+- 🧩 Columns like `active_date`, `categories`, and `average_rating_by_types` had manageable missing values and were filled using the **mode**.
+- 📌 The `rating_types_str` column was filled with `"Unknown"` for consistency in categorical data.
+- 🔄 Duplicate check showed **no duplicate records** were present.
+- ✅ After cleaning, the dataset is now **complete and consistent**, ready for exploratory data analysis (EDA) and further modeling.
 
 ## Advice
 - Continue with Exploratory Data Analysis (EDA)
